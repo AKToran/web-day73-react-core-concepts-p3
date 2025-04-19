@@ -8,6 +8,6 @@ const useInputField = (defaultValue) => {
   }
 
   return [fieldValue, handleFieldOnChange];
-}
+} 
 
 export default useInputField;
