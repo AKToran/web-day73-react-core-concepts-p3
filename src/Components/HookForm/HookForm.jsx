@@ -7,7 +7,7 @@ const HookForm = () => {
   const [password, passwordOnChange] = useInputField('');
 
 
-  const handleSubmit = e => {
+  const handleSubmit = e => { 
     e.preventDefault();
     console.log("submit", name, email);
   }
